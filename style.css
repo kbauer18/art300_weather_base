@@ -1,0 +1,206 @@
+.degree_symbol:not(:empty)::after {
+    content: "°"
+}
+
+.owm-legend-item{
+    display: none;
+}
+
+#map {
+	width: 100%;
+    height: 100%;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+
+body{
+    background-color: rgb(133,152,172);
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: 'Be Vietnam', sans-serif;
+}
+.yellow_text{
+    color: rgb(206,193,91);
+}
+.yellow_margin{
+    margin: 0;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color: rgb(213,236,255);
+}
+.gray_text{
+    color: rgb(75,75,76);
+    margin: 0;
+}
+.blue_text{
+    color: rgb(8,25,80);
+}
+.dark_gray{
+    color: rgb(26,26,26);
+    font-size: 1.5em;
+}
+.big_number{
+    font-size: 5.5em;
+    margin: 0;
+}
+.large_word{
+    font-size: 2em;
+}
+.important_number{
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+.data_num{
+    font-size: 2em;
+}
+
+
+.menu_bar{
+    background-color: rgb(65,67,85);
+    height: 3em;
+}
+.menu_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em;
+}
+.zip_code{
+    background-color: rgb(146,147,157);
+    width: 15vw;
+    margin-left: 7em;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding: 0 1vw 1vh 1vw;
+    font-size: 1.5em;
+}
+.date_time{
+    background-color: rgb(146,147,157);
+    width: 25vw;
+    margin-left: 15vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1vw 1vh 1vw;
+    font-size: 2em;
+}
+
+
+
+.main_data{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(213,236,255);
+    margin-top: 1.25em;
+    margin-bottom: 1.5em;
+    border-color: rgb(65,67,85);
+    border-width: 3px;
+    border-style: solid;
+    
+}
+
+.high_low{
+    border-left-color: rgb(65,67,85);
+    border-right-color: rgb(65,67,85);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding: 0 0vw 0 3vw;
+    margin-right: 3vw;
+}
+
+
+.current{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.real{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1em;
+    padding: 0em 1em 0em 0em;
+}
+
+.weekly_forecast{
+    background-color: rgb(65,67,85);
+    padding: 0 1vw 1.5vh 1vw;
+}
+.forecast_size{
+    font-size: 1.25em;
+}
+.forecast_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1em;
+    margin-top: 1vh;
+}
+.day_of_week{
+    background-color: rgb(213,236,255);
+    height: 100%;
+    text-align: center;
+}
+
+
+.alerts{
+    background-color: rgb(65,67,85);
+    margin-top: 1em;
+    width: 100%;
+    height: 14%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.25em;
+}
+.alert_text{
+    margin-left: 1em;
+}
+.current_alerts{
+    color: white;
+    
+}
+
+
+.daily_data{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(65,67,85);
+    margin-top: 15vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    
+    grid-row-gap: 2em;
+    height: 90vh;
+    text-align: center;
+}
+.data_box{
+    background-color: rgb(233,234,213);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    width: 7em;
+}
+.wind_margin{
+    margin: 0;
+}
+.center{
+    text-align: center;
+    margin-top: 10vh;
+}
+.modified_center{
+    margin-top: 7vh;
+}
