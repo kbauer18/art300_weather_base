@@ -73,7 +73,11 @@
                         <p></p>
                     </div>
                     <div class="amount">
-                        <p class="blue_text important_number">{{current.rain}}{{current.snow}}{{forecast[0].snow}}</p>
+                        <p class="blue_text important_number">{{current.rain}}
+                            {{current.snow}}
+                            {{forecast[0].snow}}
+                            {{forecast[0].precip}}
+                        </p>
                     </div>
                     <div class="type"></div>
                 </div>
@@ -86,7 +90,7 @@
                         <div class="forecast_grid ">
                             <div class="day_of_week">
                                 <div class="day1">
-                                    <p class="gray_text">Today</p>
+                                    <p class="gray_text"></p>
                                 </div>
                                 <div class="day1_high dark_gray ">
                                     <p>{{forecast[0].max_temp ? Math.round(forecast[0].max_temp) : ""}}</p>
@@ -100,7 +104,7 @@
                             </div>
                             <div class="day_of_week">
                                 <div class="day2">
-                                    <p class="gray_text">Monday</p>
+                                    <p class="gray_text"></p>
                                 </div>
                                 <div class="day2_high dark_gray">
                                     <p>{{forecast[1].max_temp ? Math.round(forecast[1].max_temp) : ""}}</p>
@@ -114,7 +118,7 @@
                             </div>
                             <div class="day_of_week">
                                 <div class="day3">
-                                    <p class="gray_text">Tuesday</p>
+                                    <p class="gray_text"></p>
                                 </div>
                                 <div class="day3_high dark_gray">
                                     <p>{{forecast[2].max_temp ? Math.round(forecast[2].max_temp) : ""}}</p>
@@ -128,7 +132,7 @@
                             </div>
                             <div class="day_of_week">
                                 <div class="day4">
-                                    <p class="gray_text">Wednesday</p>
+                                    <p class="gray_text"></p>
                                 </div>
                                 <div class="day4_high dark_gray">
                                     <p>{{forecast[3].max_temp ? Math.round(forecast[3].max_temp) : ""}}</p>
@@ -142,7 +146,7 @@
                             </div>
                             <div class="day_of_week">
                                 <div class="day5">
-                                    <p class="gray_text">Thursday</p>
+                                    <p class="gray_text"></p>
                                 </div>
                                 <div class="day5_high dark_gray">
                                     <p>{{forecast[4].max_temp ? Math.round(forecast[4].max_temp) : ""}}</p>
@@ -156,7 +160,7 @@
                             </div>
                             <div class="day_of_week">
                                 <div class="day6">
-                                    <p class="gray_text">Friday</p>
+                                    <p class="gray_text"></p>
                                 </div>
                                 <div class="day6_high dark_gray">
                                     <p>{{forecast[5].max_temp ? Math.round(forecast[5].max_temp) : ""}}</p>
@@ -170,7 +174,7 @@
                             </div>
                             <div class="day_of_week">
                                 <div class="day7">
-                                    <p class="gray_text">Saturday</p>
+                                    <p class="gray_text"></p>
                                 </div>
                                 <div class="day7_high dark_gray">
                                     <p>{{forecast[6].max_temp ? Math.round(forecast[6].max_temp) : ""}}</p>
@@ -200,13 +204,17 @@
                 <div class="data_box">
                     <div class="sunrise">
                         <p>Sunrise</p>
-                        <p class="dark_gray center">{{current.sunrise}}</p>
+                        <p class="dark_gray ">{{current.sunrise}}</p>
+                    </div>
+                    <div class="sunset">
+                        <p>Sunset</p>
+                        <p class="dark_gray ">{{current.sunset}}</p>
                     </div>
                 </div>
                 <div class="data_box">
-                    <div class="sunset">
-                        <p>Sunset</p>
-                        <p class="dark_gray center">{{current.sunset}}</p>
+                    <div class="humidity">
+                        <p>Humidity</p>
+                        <p class="dark_gray center data_num">{{current.humidity}}%</p>
                     </div>
                 </div>
                 <div class="data_box">
@@ -235,9 +243,9 @@
                     </div>
                 </div>
                 <div class="data_box">
-                    <div class="humidity">
-                        <p>Humidity</p>
-                        <p class="dark_gray center data_num">{{current.humidity}}%</p>
+                    <div class="air_quality">
+                        <p>Air Quality</p>
+                        <p class="dark_gray center"></p>
                     </div>
                 </div>
                 <div class="data_box">
@@ -259,6 +267,17 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="icon-01d"></div>
+            <div class="icon-02d"></div>
+            <div class="icon-03d"></div>
+            <div class="icon-04d"></div>
+            <div class="icon-09d"></div>
+            <div class="icon-10d"></div>
+            <div class="icon-11d"></div>
+            <div class="icon-13d"></div>
+            <div class="icon-50d"></div>
+            
 
 
 
