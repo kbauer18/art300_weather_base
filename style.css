@@ -30,10 +30,6 @@ p{
 .yellow_margin{
     margin: 0;
 }
-.underline{
-    text-decoration: underline;
-    text-decoration-color: rgb(213,236,255);
-}
 .gray_text{
     color: rgb(75,75,76);
     margin: 0;
@@ -68,7 +64,7 @@ p{
 }
 .menu_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 3em;
 }
 .zip_code{
@@ -80,14 +76,32 @@ p{
     padding: 0 1vw 1vh 1vw;
     font-size: 1.5em;
 }
+
+#zip{
+    background-color: transparent;
+    width: 5em;
+    font-size: 0.75em;
+    border: none;
+    color: rgb(206,193,91);
+}
+::placeholder{
+    color: rgb(206,193,91);
+    text-decoration: underline;
+    text-decoration-color: rgb(213,236,255);
+    
+}
+
+.city{
+    margin-left: 10em;
+}
 .date_time{
     background-color: rgb(146,147,157);
     width: 25vw;
-    margin-left: 15vw;
+    margin-left: 0vw;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.75fr 1fr;
     padding: 0 1vw 1vh 1vw;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 

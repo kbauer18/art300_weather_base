@@ -26,281 +26,259 @@
     </head>
 
     <body>
-
-        <div class="menu_bar">
-            <div class="menu_grid">
-                <div class="zip_code">
-                    <p class="gray_text">Zip Code:</p>
-                    <p class="yellow_text underline yellow_margin"> 66506</p>
-                </div>
-                <div class="date_time">
-                    <p class="yellow_text yellow_margin">10/21/19</p>
-                    <p class="yellow_text yellow_margin"> 12:30pm</p>
-                </div>
-            </div>
-        </div>
-        <div class="main_data">
-            <div class="temperature">
-                <div class="current">
-                    <p class="gray_text large_word">Current</p>
-                    <p class="blue_text big_number">63°</p>
-                </div>
-                <div class="real">
-                    <p class="gray_text large_word">Feels Like</p>
-                    <p class="blue_text big_number">58°</p>
-                </div>
-                <div class="weather_symbol"></div>
-            </div>
-            <div class="high_low">
-                <div class="high">
-                    <p class="gray_text large_word">High</p>
-                    <p class="blue_text important_number">66°</p>
-                </div>
-                <div class="low">
-                    <p class="gray_text large_word">Low</p>
-                    <p class="blue_text important_number">40°</p>
-                </div>
-            </div>
-            <div class="precipitation">
-                <p class="gray_text large_word">Precipitation:</p>
-                <div class="chance">
-                    <p class="blue_text important_number">00%</p>
-                    <p></p>
-                </div>
-                <div class="amount">
-                    <p class="blue_text important_number">00in</p>
-                </div>
-                <div class="type"></div>
-            </div>
-        </div>
-
-        <div class="row_2">
-            <div class="left side">
-                <div class="weekly_forecast">
-                    <p class="yellow_text yellow_margin forecast_size">Weekly Forecast</p>
-                    <div class="forecast_grid">
-                        <div class="day_of_week">
-                            <div class="day1">
-                                <p class="gray_text">Today</p>
-                            </div>
-                            <div class="day1_high dark_gray">
-                                <p>66°</p>
-                            </div>
-                            <div class="day1_low dark_gray">
-                                <p>40°</p>
-                            </div>
-                            <div class="day1_icon">
-                                <p>icon</p>
-                            </div>
-                        </div>
-                        <div class="day_of_week">
-                            <div class="day2">
-                                <p class="gray_text">Monday</p>
-                            </div>
-                            <div class="day2_high dark_gray">
-                                <p>51°</p>
-                            </div>
-                            <div class="day2_low dark_gray">
-                                <p>34°</p>
-                            </div>
-                            <div class="day2_icon">
-                                <p>icon</p>
-                            </div>
-                        </div>
-                        <div class="day_of_week">
-                            <div class="day3">
-                                <p class="gray_text">Tuesday</p>
-                            </div>
-                            <div class="day3_high dark_gray">
-                                <p>56°</p>
-                            </div>
-                            <div class="day3_low dark_gray">
-                                <p>33°</p>
-                            </div>
-                            <div class="day3_icon">
-                                <p>icon</p>
-                            </div>
-                        </div>
-                        <div class="day_of_week">
-                            <div class="day4">
-                                <p class="gray_text">Wednesday</p>
-                            </div>
-                            <div class="day4_high dark_gray">
-                                <p>63°</p>
-                            </div>
-                            <div class="day4_low dark_gray">
-                                <p>38°</p>
-                            </div>
-                            <div class="day4_icon">
-                                <p>icon</p>
-                            </div>
-                        </div>
-                        <div class="day_of_week">
-                            <div class="day5">
-                                <p class="gray_text">Thursday</p>
-                            </div>
-                            <div class="day5_high dark_gray">
-                                <p>55°</p>
-                            </div>
-                            <div class="day5_low dark_gray">
-                                <p>35°</p>
-                            </div>
-                            <div class="day5_icon">
-                                <p>icon</p>
-                            </div>
-                        </div>
-                        <div class="day_of_week">
-                            <div class="day6">
-                                <p class="gray_text">Friday</p>
-                            </div>
-                            <div class="day6_high dark_gray">
-                                <p>49°</p>
-                            </div>
-                            <div class="day6_low dark_gray">
-                                <p>34°</p>
-                            </div>
-                            <div class="day6_icon">
-                                <p>icon</p>
-                            </div>
-                        </div>
-                        <div class="day_of_week">
-                            <div class="day7">
-                                <p class="gray_text">Saturday</p>
-                            </div>
-                            <div class="day7_high dark_gray">
-                                <p>47°</p>
-                            </div>
-                            <div class="day7_low dark_gray">
-                                <p>29°</p>
-                            </div>
-                            <div class="day7_icon">
-                                <p>icon</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="alerts">
-                    <p class="yellow_text alert_text">Weather Alerts:</p>
-                    <div class="current_alerts">
-                        <p>Local Pollen Alert</p>
-                    </div>
-                </div>
-            </div>
-            <div class="right_side">
-                <div id="map"></div>
-            </div>
-
-
-        </div>
-
-        <div class="daily_data">
-            <div class="data_box">
-                <div class="sunrise">
-                    <p>Sunrise</p>
-                    <p class="dark_gray ">7:43am</p>
-                </div>
-                <div class="sunset">
-                    <p>Sunset</p>
-                    <p class="dark_gray ">6:35pm</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="uv_index">
-                    <p>UV Index</p>
-                    <p class="dark_gray center data_num">4</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="humidity">
-                    <p>Humidity</p>
-                    <p class="dark_gray center data_num">37%</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="cloud_coverage">
-                    <p>Cloud Coverage</p>
-                    <p class="dark_gray ">Partly Cloudy</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="wind">
-                    <p>Wind</p>
-                    <p class="dark_gray wind_margin modified_center ">W</p>
-                    <p class="dark_gray wind_margin ">13 mph</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="visibility">
-                    <p>Visibility</p>
-                    <p class="dark_gray center ">10 miles</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="air_quality">
-                    <p>Air Quality</p>
-                    <p class="dark_gray center">Moderate</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="pressure">
-                    <p>Pressure</p>
-                    <p class="dark_gray modified_center ">29.87 inHG</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="dew_point">
-                    <p>Dew Point</p>
-                    <p class="dark_gray center data_num">38°</p>
-                </div>
-            </div>
-            <div class="data_box">
-                <div class="moon">
-                    <p>Phase of the Moon</p>
-                    <p class="dark_gray ">Waning Crescent</p>
-                </div>
-            </div>
-        </div>
-
-        <input placeholder="Enter Your ZIP Code" name="name" id="zip" />
-        <p id="zip_display"></p>
-
-        <!--
         <div class="results" id="app">
-             <h1>TIME</h1>
+            <div class="menu_bar">
+                <div class="menu_grid">
+                    <div class="zip_code">
+                        <p class="gray_text">Zip Code:</p>
+                        <p class="yellow_text yellow_margin">
+                            <input placeholder="ZIP Code" v-on:input="zip_trigger" name="name" id="zip" />
+                        </p>
+                    </div>
+                    <div class="city yellow_text">
+                        <p>{{city}}</p>
+                    </div>
+                    <div class="date_time">
+                        <p class="yellow_text yellow_margin">{{time.date}}</p>
+                        <p class="yellow_text yellow_margin"> {{time.hour_12}} : {{time.minute}}  {{time.ampm}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_data">
+                <div class="temperature">
+                    <div class="current">
+                        <p class="gray_text large_word">Current</p>
+                        <p class="blue_text big_number degree_symbol">{{current.temp.current}}</p>
+                    </div>
+                    <div class="real">
+                        <p class="gray_text large_word">Feels Like</p>
+                        <p class="blue_text big_number degree_symbol">{{current.wind.degree}}</p>
+                    </div>
+                    <div class="weather_symbol"></div>
+                </div>
+                <div class="high_low">
+                    <div class="high">
+                        <p class="gray_text large_word">High</p>
+                        <p class="blue_text important_number degree_symbol">{{current.temp.high}}</p>
+                    </div>
+                    <div class="low">
+                        <p class="gray_text large_word">Low</p>
+                        <p class="blue_text important_number degree_symbol">{{current.temp.low}}</p>
+                    </div>
+                </div>
+                <div class="precipitation">
+                    <p class="gray_text large_word">Precipitation:</p>
+                    <div class="chance">
+                        <p class="blue_text important_number">{{forecast[0].pop}}%</p>
+                        <p></p>
+                    </div>
+                    <div class="amount">
+                        <p class="blue_text important_number">{{current.rain}}{{current.snow}}{{forecast[0].snow}}</p>
+                    </div>
+                    <div class="type"></div>
+                </div>
+            </div>
+
+            <div class="row_2">
+                <div class="left side">
+                    <div class="weekly_forecast">
+                        <p class="yellow_text yellow_margin forecast_size">Weekly Forecast</p>
+                        <div class="forecast_grid ">
+                            <div class="day_of_week">
+                                <div class="day1">
+                                    <p class="gray_text">Today</p>
+                                </div>
+                                <div class="day1_high dark_gray ">
+                                    <p>{{forecast[0].max_temp ? Math.round(forecast[0].max_temp) : ""}}</p>
+                                </div>
+                                <div class="day1_low dark_gray ">
+                                    <p>{{forecast[0].min_temp ? Math.round(forecast[0].min_temp) : ""}}</p>
+                                </div>
+                                <div class="day1_icon">
+                                    <p>icon</p>
+                                </div>
+                            </div>
+                            <div class="day_of_week">
+                                <div class="day2">
+                                    <p class="gray_text">Monday</p>
+                                </div>
+                                <div class="day2_high dark_gray">
+                                    <p>{{forecast[1].max_temp ? Math.round(forecast[1].max_temp) : ""}}</p>
+                                </div>
+                                <div class="day2_low dark_gray">
+                                    <p>{{forecast[1].min_temp ? Math.round(forecast[1].min_temp) : ""}}</p>
+                                </div>
+                                <div class="day2_icon">
+                                    <p>icon</p>
+                                </div>
+                            </div>
+                            <div class="day_of_week">
+                                <div class="day3">
+                                    <p class="gray_text">Tuesday</p>
+                                </div>
+                                <div class="day3_high dark_gray">
+                                    <p>{{forecast[2].max_temp ? Math.round(forecast[2].max_temp) : ""}}</p>
+                                </div>
+                                <div class="day3_low dark_gray">
+                                    <p>{{forecast[2].min_temp ? Math.round(forecast[2].min_temp) : ""}}</p>
+                                </div>
+                                <div class="day3_icon">
+                                    <p>icon</p>
+                                </div>
+                            </div>
+                            <div class="day_of_week">
+                                <div class="day4">
+                                    <p class="gray_text">Wednesday</p>
+                                </div>
+                                <div class="day4_high dark_gray">
+                                    <p>{{forecast[3].max_temp ? Math.round(forecast[3].max_temp) : ""}}</p>
+                                </div>
+                                <div class="day4_low dark_gray">
+                                    <p>{{forecast[3].min_temp ? Math.round(forecast[3].min_temp) : ""}}</p>
+                                </div>
+                                <div class="day4_icon">
+                                    <p>icon</p>
+                                </div>
+                            </div>
+                            <div class="day_of_week">
+                                <div class="day5">
+                                    <p class="gray_text">Thursday</p>
+                                </div>
+                                <div class="day5_high dark_gray">
+                                    <p>{{forecast[4].max_temp ? Math.round(forecast[4].max_temp) : ""}}</p>
+                                </div>
+                                <div class="day5_low dark_gray">
+                                    <p>{{forecast[4].min_temp ? Math.round(forecast[4].min_temp) : ""}}</p>
+                                </div>
+                                <div class="day5_icon">
+                                    <p>icon</p>
+                                </div>
+                            </div>
+                            <div class="day_of_week">
+                                <div class="day6">
+                                    <p class="gray_text">Friday</p>
+                                </div>
+                                <div class="day6_high dark_gray">
+                                    <p>{{forecast[5].max_temp ? Math.round(forecast[5].max_temp) : ""}}</p>
+                                </div>
+                                <div class="day6_low dark_gray">
+                                    <p>{{forecast[5].min_temp ? Math.round(forecast[5].min_temp) : ""}}</p>
+                                </div>
+                                <div class="day6_icon">
+                                    <p>icon</p>
+                                </div>
+                            </div>
+                            <div class="day_of_week">
+                                <div class="day7">
+                                    <p class="gray_text">Saturday</p>
+                                </div>
+                                <div class="day7_high dark_gray">
+                                    <p>{{forecast[6].max_temp ? Math.round(forecast[6].max_temp) : ""}}</p>
+                                </div>
+                                <div class="day7_low dark_gray">
+                                    <p>{{forecast[6].min_temp ? Math.round(forecast[6].min_temp) : ""}}</p>
+                                </div>
+                                <div class="day7_icon">
+                                    <p>icon</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alerts">
+                        <p class="yellow_text alert_text">Weather Alerts:</p>
+                        <div class="current_alerts">
+                            <p>{{error}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_side">
+                    <div id="map"></div>
+                </div>
+            </div>
+
+            <div class="daily_data">
+                <div class="data_box">
+                    <div class="sunrise">
+                        <p>Sunrise</p>
+                        <p class="dark_gray center">{{current.sunrise}}</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="sunset">
+                        <p>Sunset</p>
+                        <p class="dark_gray center">{{current.sunset}}</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="uv_index">
+                        <p>UV Index</p>
+                        <p class="dark_gray center data_num">{{forecast[0].uv ? Math.round(forecast[0].uv) : ""}}</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="cloud_coverage">
+                        <p>Cloud Coverage</p>
+                        <p class="dark_gray ">{{hourly[0].shortForecast}}</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="wind">
+                        <p>Wind</p>
+                        <p class="dark_gray wind_margin modified_center ">{{hourly[0].windDirection}}</p>
+                        <p class="dark_gray wind_margin ">{{current.wind.speed}}</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="visibility">
+                        <p>Visibility</p>
+                        <p class="dark_gray center ">{{forecast[0].vis}} Miles</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="humidity">
+                        <p>Humidity</p>
+                        <p class="dark_gray center data_num">{{current.humidity}}%</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="pressure">
+                        <p>Pressure</p>
+                        <p class="dark_gray center ">{{current.pressure}} hpa</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="dew_point">
+                        <p>Dew Point</p>
+                        <p class="dark_gray center data_num degree_symbol">{{forecast[0].dewpt}}</p>
+                    </div>
+                </div>
+                <div class="data_box">
+                    <div class="moon">
+                        <p>Phase of the Moon</p>
+                        <p class="dark_gray ">{{time.moom}}</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!--
+
             <p>{{time.day}}</p>
-            <p>{{time.date}}</p>
-            <p>{{time.hour_12}} : {{time.minute}} : {{time.seconds}} {{time.ampm}}</p>
-            <p>{{time.moom}}</p>
+
+            {{time.seconds}}
 
             <h1>META</h1>
-            <p>{{city}}</p>
-
             <p>{{location.zip}}</p>
-            <p>{{location.coord.lat}}</p>
-            <p>{{location.coord.lon}}</p>
             <p>{{location.name}}</p>
-
-            <p>{{error}}</p>
 
 
             <h1>CURRENT</h1>
             <p>{{current.description_main}}</p>
             <p>{{current.description_long}}</p>
             <p>{{current.description_icon}}</p>
-
-            <p class="degree_symbol">{{current.temp.current}}</p>
-            <p class="degree_symbol">{{current.temp.high}}</p>
-            <p class="degree_symbol">{{current.temp.low}}</p>
-
-            <p>{{current.wind.speed}}</p>
-            <p class="degree_symbol">{{current.wind.degree}}</p>
-            <p>{{current.cloud_cover}}</p>
-
-            <p>{{current.rain}}</p>
-            <p>{{current.snow}}</p>
-
-            <p>{{current.sunrise}}</p>
-            <p>{{current.sunset}}</p>
 
 
             <h1>HOURLY</h1>
@@ -315,34 +293,24 @@
             <p>{{hourly[0].windDirection}}</p>
 
             <h1>FORECAST</h1>
-            <h4>Day 1</h4>
-            <p  class="degree_symbol">High - {{forecast[0].max_temp}}</p>
-            <p  class="degree_symbol">Low - {{forecast[0].min_temp}}</p>
-            <p>{{forecast[0].uv}}</p>
+
             <p>{{forecast[0].weather.description}}</p>
 
             <p>{{forecast[0].wind_spd}} mph</p>
             <p>{{forecast[0].wind_cdir_full}}</p>
             <p>{{forecast[0].wind_cdir}}</p>
-
-            <p>{{forecast[0].vis}}</p>
-
-            <p>{{forecast[0].pop}}</p>
-
             <p>{{forecast[0].precip}}</p>
 
             <p>{{forecast[0].snow}}</p>
-
-            <p>{{forecast[0].dewpt}}</p>
             <p>{{forecast[0].pres}} mb</p>
-
-        </div>-->
-        <div id="map"></div>
-
+-->
+        </div>
 
 
 
-        <script src="/js/script.js" type="module"></script>
+
+
+        <script src="/js/script.js"></script>
     </body>
 </html>
 
